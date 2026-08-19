@@ -1,0 +1,35 @@
+cache/
+*.log
+*.lock
+*.pid
+
+# secrets — do not commit
+gh/
+
+# browser profiles: history, cookies, sessions
+mozilla/
+zen/
+
+# private app state (marked 700 by the app itself)
+dconf/
+github-copilot/
+htop/
+obsidian/
+procps/
+pulse/
+rstudio/
+VSCodium/
+
+# private rc files (marked 600 by the app itself)
+baloofileinformationrc
+digikamrc
+kiorc
+okularpartrc
+okularrc
+showfotorc
+trashrc
+user-dirs.dirs
+
+# cruft
+nvim.bak-*/
+yay/

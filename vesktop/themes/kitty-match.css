@@ -1,0 +1,316 @@
+
+.theme-dark, .theme-light {
+    --background-primary: rgba(14, 20, 21, 0.55) !important;
+    --background-secondary: rgba(22, 29, 29, 0.45) !important;
+    --background-secondary-alt: rgba(26, 33, 33, 0.50) !important;
+    --background-tertiary: rgba(14, 20, 21, 0.60) !important;
+    --background-accent: rgba(103, 243, 251, 0.45) !important;
+    --background-floating: rgba(26, 33, 33, 0.70) !important;
+    --background-nested-floating: rgba(37, 43, 43, 0.65) !important;
+    --background-mobile-primary: rgba(14, 20, 21, 0.55) !important;
+    --background-mobile-secondary: rgba(22, 29, 29, 0.45) !important;
+    --background-modifier-hover: rgba(221, 228, 228, 0.06) !important;
+    --background-modifier-active: rgba(221, 228, 228, 0.10) !important;
+    --background-modifier-selected: rgba(221, 228, 228, 0.12) !important;
+    --background-modifier-accent: rgba(221, 228, 228, 0.05) !important;
+    --bg-overlay-chat: transparent !important;
+    --home-background: transparent !important;
+
+    --text-normal: #fffaff !important;
+    --text-muted: #bbc9ca !important;
+    --text-link: #f1ffff !important;
+    --text-positive: #fffaff !important;
+    --text-warning: #fffaff !important;
+    --text-danger: #ffb4ab !important;
+    --text-brand: #f1ffff !important;
+    --header-primary: #dde4e4 !important;
+    --header-secondary: #bbc9ca !important;
+
+    --interactive-normal: #f1ffff !important;
+    --interactive-hover: #f1ffff !important;
+    --interactive-active: #f1ffff !important;
+    --interactive-muted: #859394 !important;
+
+    --channels-default: #fffaff !important;
+    --channel-icon: #f1ffff !important;
+    --channel-text-area-placeholder: #bbc9ca !important;
+
+    --brand-experiment: #f1ffff !important;
+    --brand-experiment-560: #f1ffff !important;
+
+    --scrollbar-thin-thumb: rgba(241, 255, 255, 0.4) !important;
+    --scrollbar-thin-track: transparent !important;
+    --scrollbar-auto-thumb: rgba(241, 255, 255, 0.4) !important;
+    --scrollbar-auto-track: transparent !important;
+
+    --input-background: rgba(26, 33, 33, 0.50) !important;
+    --input-placeholder-text: #bbc9ca !important;
+    --channeltextarea-background: rgba(26, 33, 33, 0.50) !important;
+
+    --border-subtle: rgba(60, 73, 74, 0.3) !important;
+    --border-strong: rgba(133, 147, 148, 0.4) !important;
+
+    --green-360: #fffaff !important;
+    --yellow-300: #fffaff !important;
+    --red-400: #ffb4ab !important;
+
+    --focus-primary: #f1ffff !important;
+    --control-brand-foreground: #f1ffff !important;
+    --control-brand-foreground-new: #f1ffff !important;
+    --mention-foreground: #f1ffff !important;
+    --mention-background: rgba(241, 255, 255, 0.12) !important;
+    --info-positive-foreground: #fffaff !important;
+    --info-warning-foreground: #fffaff !important;
+    --info-danger-foreground: #ffb4ab !important;
+    --status-positive: #fffaff !important;
+    --status-warning: #fffaff !important;
+    --status-danger: #ffb4ab !important;
+    --button-secondary-background: rgba(37, 43, 43, 0.45) !important;
+    --modal-background: rgba(26, 33, 33, 0.70) !important;
+    --modal-footer-background: rgba(22, 29, 29, 0.60) !important;
+    --card-primary-bg: rgba(22, 29, 29, 0.40) !important;
+    --card-secondary-bg: rgba(26, 33, 33, 0.40) !important;
+}
+
+
+html, body {
+    background: #0e1415 !important;
+}
+
+#app-mount {
+    background: transparent !important;
+}
+
+nav[class*="guilds"] {
+    background: rgba(14, 20, 21, 0.50) !important;
+    backdrop-filter: blur(24px) saturate(1.6) !important;
+    -webkit-backdrop-filter: blur(24px) saturate(1.6) !important;
+}
+
+div[class*="sidebar_"] {
+    background: rgba(22, 29, 29, 0.35) !important;
+    backdrop-filter: blur(20px) saturate(1.5) !important;
+    -webkit-backdrop-filter: blur(20px) saturate(1.5) !important;
+}
+
+div[class*="sidebar_"] header[class*="header"] {
+    background: transparent !important;
+}
+
+div[class*="sidebar_"] div[class*="content"] {
+    background: transparent !important;
+}
+
+div[class*="chatContent"],
+main[class*="chatContent"] {
+    background: rgba(14, 20, 21, 0.35) !important;
+    backdrop-filter: blur(20px) saturate(1.4) !important;
+    -webkit-backdrop-filter: blur(20px) saturate(1.4) !important;
+}
+
+div[class*="messagesWrapper"],
+ol[class*="scrollerInner"] {
+    background: transparent !important;
+}
+
+div[class*="message_"][class*="cozy_"]:hover {
+    background: rgba(221, 228, 228, 0.04) !important;
+}
+
+form[class*="chatBottom"],
+div[class*="form_"] {
+    background: transparent !important;
+}
+
+div[class*="channelTextArea"] {
+    background: rgba(26, 33, 33, 0.45) !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
+    border-radius: 12px !important;
+    border: 1px solid rgba(60, 73, 74, 0.15) !important;
+}
+
+div[class*="typing_"] {
+    background: transparent !important;
+}
+
+div[class*="membersWrap"] {
+    background: rgba(22, 29, 29, 0.30) !important;
+    backdrop-filter: blur(20px) saturate(1.5) !important;
+    -webkit-backdrop-filter: blur(20px) saturate(1.5) !important;
+}
+
+div[class*="members_"] {
+    background: transparent !important;
+}
+
+section[class*="title"],
+div[class*="title_"][class*="container"] {
+    background: rgba(14, 20, 21, 0.30) !important;
+    backdrop-filter: blur(20px) saturate(1.5) !important;
+    -webkit-backdrop-filter: blur(20px) saturate(1.5) !important;
+    border-bottom: 1px solid rgba(60, 73, 74, 0.10) !important;
+}
+
+section[class*="panels"],
+div[class*="panels"] {
+    background: rgba(14, 20, 21, 0.50) !important;
+    backdrop-filter: blur(24px) saturate(1.5) !important;
+    -webkit-backdrop-filter: blur(24px) saturate(1.5) !important;
+}
+
+div[class*="layerContainer"] div[class*="popout"],
+div[class*="layerContainer"] div[class*="modal"],
+div[class*="layer"] div[class*="popout"],
+div[class*="layer"] div[class*="modal"],
+div[class*="popout"][class*="root"],
+div[class*="modal"][class*="root"] {
+    background: rgba(26, 33, 33, 0.65) !important;
+    backdrop-filter: blur(32px) saturate(1.8) !important;
+    -webkit-backdrop-filter: blur(32px) saturate(1.8) !important;
+    border: 1px solid rgba(60, 73, 74, 0.15) !important;
+    border-radius: 12px !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35) !important;
+}
+
+div[class*="backdrop"] {
+    background: rgba(0, 0, 0, 0.5) !important;
+    backdrop-filter: blur(4px) !important;
+    -webkit-backdrop-filter: blur(4px) !important;
+}
+
+div[class*="userPopoutOuter"],
+div[class*="userProfileOuter"] {
+    background: rgba(26, 33, 33, 0.60) !important;
+    backdrop-filter: blur(32px) saturate(1.8) !important;
+    -webkit-backdrop-filter: blur(32px) saturate(1.8) !important;
+}
+
+div[class*="menu_"] {
+    background: rgba(26, 33, 33, 0.70) !important;
+    backdrop-filter: blur(28px) saturate(1.7) !important;
+    -webkit-backdrop-filter: blur(28px) saturate(1.7) !important;
+    border: 1px solid rgba(60, 73, 74, 0.15) !important;
+    border-radius: 10px !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3) !important;
+}
+
+div[class*="searchBar"] {
+    background: rgba(26, 33, 33, 0.40) !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
+    border-radius: 8px !important;
+}
+
+div[class*="searchBar"] input {
+    color: #fffaff !important;
+}
+
+div[class*="searchResultsWrap"] {
+    background: rgba(26, 33, 33, 0.60) !important;
+    backdrop-filter: blur(28px) saturate(1.6) !important;
+    -webkit-backdrop-filter: blur(28px) saturate(1.6) !important;
+}
+
+article[class*="embedWrapper"] {
+    background: rgba(22, 29, 29, 0.40) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border-color: rgba(60, 73, 74, 0.20) !important;
+    border-radius: 10px !important;
+}
+
+code {
+    background: rgba(26, 33, 33, 0.50) !important;
+    border-color: rgba(60, 73, 74, 0.15) !important;
+    border-radius: 6px !important;
+}
+
+pre {
+    background: rgba(26, 33, 33, 0.40) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border-color: rgba(60, 73, 74, 0.15) !important;
+    border-radius: 10px !important;
+}
+
+div[class*="contentRegion"],
+div[class*="standardSidebarView"] {
+    background: rgba(14, 20, 21, 0.40) !important;
+    backdrop-filter: blur(20px) saturate(1.4) !important;
+    -webkit-backdrop-filter: blur(20px) saturate(1.4) !important;
+}
+
+div[class*="sidebarRegion"] {
+    background: rgba(22, 29, 29, 0.35) !important;
+    backdrop-filter: blur(20px) saturate(1.5) !important;
+    -webkit-backdrop-filter: blur(20px) saturate(1.5) !important;
+}
+
+div[class*="cardPrimary"],
+div[class*="cardSecondary"] {
+    background: rgba(26, 33, 33, 0.35) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border-radius: 10px !important;
+}
+
+div[class*="toolbar"] > div[class*="iconWrapper"]:hover {
+    background: rgba(221, 228, 228, 0.08) !important;
+    border-radius: 8px !important;
+}
+
+div[class*="container_"][class*="thread"] {
+    background: rgba(22, 29, 29, 0.35) !important;
+    backdrop-filter: blur(20px) saturate(1.5) !important;
+    -webkit-backdrop-filter: blur(20px) saturate(1.5) !important;
+}
+
+div[class*="connection_"] {
+    background: rgba(14, 20, 21, 0.45) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+}
+
+div[class*="reaction_"] {
+    background: rgba(26, 33, 33, 0.35) !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+    border: 1px solid rgba(60, 73, 74, 0.12) !important;
+    border-radius: 8px !important;
+}
+
+div[class*="sidebar_"],
+div[class*="membersWrap"],
+div[class*="panels"],
+nav[class*="guilds"] {
+    border: none !important;
+}
+
+div[class*="autocomplete"] {
+    background: rgba(26, 33, 33, 0.70) !important;
+    backdrop-filter: blur(28px) saturate(1.7) !important;
+    -webkit-backdrop-filter: blur(28px) saturate(1.7) !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(60, 73, 74, 0.15) !important;
+}
+
+div[class*="tooltip_"] {
+    background: rgba(37, 43, 43, 0.75) !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
+    border-radius: 8px !important;
+}
+
+div[class*="unreadBar"] {
+    background: rgba(241, 255, 255, 0.70) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border-radius: 20px !important;
+}
+
+div[class*="channelAttachmentArea"],
+ul[class*="attachedBars"] {
+    background: transparent !important;
+}
+
